@@ -17,7 +17,7 @@
 - [x] A powerful webterminal
 - [x] Ldap support
 - [ ] Muti tencent namespace manager
-- [ ] Web yaml render
+- [x] Web yaml render
 
 # Install
 ```
@@ -43,7 +43,8 @@ and delete oidc config in kube-apiserver.yaml (/etc/kuberentes/manifests/kube-ap
 ```
 
 # Auth
-Create a kubernetes User token
+Create a kubernetes user token
+
 [README](./auth/README.md)
 
 # Webterminal
@@ -52,6 +53,11 @@ Create a kubernetes User token
 [terminal show](https://sealyun.com/post/fist-terminal/)
 
 [README](./terminal/README.md)
+
+# Templates
+Render your yaml files quickly.
+
+[README](./template/README.md)
 
 # Contributing
 [Contributing guide](./CONTRIBUTING.md)
